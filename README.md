@@ -2,7 +2,7 @@
 
 This is the unofficial Japanese translation of the [OWASP Thick Client Application Security Verification Standard](https://github.com/OWASP/TCASVS).
 
-- Document Site - <https://coky-t.gitbook.io/owasp-thick-client-asvs-ja/>
+- Document Site - <https://coky-t.gitbook.io/owasp-tcasvs-ja/>
 - Document Repository - <https://github.com/coky-t/owasp-tcasvs-ja>
 
 ### Originator
