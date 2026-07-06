@@ -1,15 +1,15 @@
-# Appendix C - Contributors
+# 付録 C: 貢献者
 
-We gratefully acknowledge the contributions of the following people who have helped build and refine the TCASVS.
+TCASVS の構築と改良に尽力された以下の皆様の貢献に心から感謝いたします。
 
-## Project Leaders
+## プロジェクトリーダー
 
 | | |
 |---|---|
-| Dave Hanson ([JeffreyShran](https://github.com/JeffreyShran)) | Project Lead |
-| Samuel Aubert ([matreurai](https://github.com/matreurai)) | Project Lead |
+| Dave Hanson ([JeffreyShran](https://github.com/JeffreyShran)) | プロジェクトリーダー |
+| Samuel Aubert ([matreurai](https://github.com/matreurai)) | プロジェクトリーダー |
 
-## Core Team (Bentley Systems)
+## コアチーム (Bentley Systems)
 
 | | |
 |---|---|
@@ -21,8 +21,8 @@ We gratefully acknowledge the contributions of the following people who have hel
 
 | | |
 |---|---|
-| Starr Brown ([mamicidal](https://github.com/mamicidal)) | Director of Projects |
+| Starr Brown ([mamicidal](https://github.com/mamicidal)) | プロジェクトのディレクター |
 
-## Community Contributors
+## コミュニティ貢献者
 
-We thank all [contributors](https://github.com/OWASP/TCASVS/graphs/contributors) who have submitted issues, pull requests, and feedback to improve this standard.
+本標準の改善に向けて issue、プルリクエスト、フィードバックを提出したすべての [貢献者](https://github.com/OWASP/TCASVS/graphs/contributors) に感謝いたします。
