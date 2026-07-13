@@ -1,10 +1,10 @@
-# Frontispiece
+# 扉
 
-## About the Standard
+## 本標準について
 
-The Thick Client Application Security Verification Standard is a list of application security requirements or tests that can be used by architects, developers, testers, security professionals, tool vendors, and consumers to define, build, test, and verify secure thick client applications.
+Thick Client Application Security Verification Standard は、安全なシッククライアントアプリケーションを定義、構築、テスト、検証するために、アーキテクト、開発者、テスト担当者、セキュリティ専門家、ツールベンダー、使用者が使用できる、アプリケーションセキュリティ要件やテストのリストです。
 
-## Copyright and License
+## 著作権とライセンス
 
 Version 5.0.0, 2026
 
@@ -12,24 +12,24 @@ Version 5.0.0, 2026
 
 Copyright © 2024-2026 The OWASP Foundation.
 
-This document is released under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/). For any reuse or distribution, you must make clear to others the license terms of this work.
+このドキュメントは [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) の下でリリースされています。再利用または配布する場合には、本著作物のライセンス条項を他者に対して明確に伝える必要があります。
 
-## Project Leaders
+## プロジェクトリーダー
 
 |               |
 |---------------|
 | Dave Hanson   |
 | Samuel Aubert |
 
-## Major Contributors
+## 主要貢献者
 
 |                    |                 |
 |--------------------|-----------------|
 | Einaras Bartkus    | John Cotter     |
 | Thomas Chauchefoin |                 |
 
-## Contributors and Reviewers
+## 貢献者とレビュー担当者
 
-The OWASP Thick Client Application Security Verification Standard is built by the community, for the community. We thank all contributors who have provided feedback, identified issues, and submitted improvements.
+OWASP Thick Client Application Security Verification Standard は、コミュニティによって、コミュニティのために構築されています。フィードバックを提供したり、問題を指摘したり、改善を提出したすべての貢献者に感謝します。
 
-A full list of contributors is available in the project's [GitHub repository](https://github.com/OWASP/TCASVS/graphs/contributors).
+貢献者の完全なリストはプロジェクトの [GitHub リポジトリ](https://github.com/OWASP/TCASVS/graphs/contributors) で閲覧できます。
