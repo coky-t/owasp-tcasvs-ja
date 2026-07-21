@@ -12,18 +12,18 @@ OWASP Thick Client Application Security Verification Standard (TCASVS) は、シ
 
 TCASVS はウェブアプリケーション向けの [OWASP Application Security Verification Standard (ASVS)](https://github.com/OWASP/ASVS) と [Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs) の間のギャップを埋めます。MASVS はシッククライアントのテストに適用できますが、最適なものではありません。TCASVS はシッククライアントのシナリオに特化して策定された標準を提供します。
 
-## Latest Stable Version — 5.0.0
+## 最新安定版 — 5.0.0
 
-The standard source is available in the [`5.0/en/`](5.0/en/) folder. It includes 6 chapters covering 130+ security requirements across three verification levels.
+標準のソースは [`5.0/ja/`](document/5.0/ja/) にあります。三つの検証レベルにわたる 130 以上のセキュリティ要件をカバーする 6 つの章を含みます。
 
-| Chapter | Title |
-|---------|-------|
-| V1 | [Architecture and Threat Modeling](5.0/en/0x10-V1-Architecture-and-Threat-Modeling.md) |
-| V2 | [Build, Deployment, and Environment Hardening](5.0/en/0x11-V2-Build-Deployment-and-Environment-Hardening.md) |
-| V3 | [Data Storage and Protection](5.0/en/0x12-V3-Data-Storage-and-Protection.md) |
-| V4 | [Code Quality and Exploit Mitigation](5.0/en/0x13-V4-Code-Quality-and-Exploit-Mitigation.md) |
-| V5 | [Cryptography](5.0/en/0x14-V5-Cryptography.md) |
-| V6 | [Network Communication](5.0/en/0x15-V6-Network-Communication.md) |
+| 章 | タイトル |
+|----|----------|
+| V1 | [アーキテクチャと脅威モデリング (Architecture and Threat Modeling)](document/5.0/ja/0x10-V1-Architecture-and-Threat-Modeling.md) |
+| V2 | [構築、展開、環境の堅牢化 (Build, Deployment, and Environment Hardening)](document/5.0/ja/0x11-V2-Build-Deployment-and-Environment-Hardening.md) |
+| V3 | [データストレージと保護 (Data Storage and Protection)](document/5.0/ja/0x12-V3-Data-Storage-and-Protection.md) |
+| V4 | [コード品質とエクスプロイト軽減 (Code Quality and Exploit Mitigation)](document/5.0/ja/0x13-V4-Code-Quality-and-Exploit-Mitigation.md) |
+| V5 | [暗号技術 (Cryptography)](document/5.0/ja/0x14-V5-Cryptography.md) |
+| V6 | [ネットワーク通信 (Network Communication)](document/5.0/ja/0x15-V6-Network-Communication.md) |
 
 ## Project Leaders and Working Group
 
