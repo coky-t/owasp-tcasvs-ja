@@ -25,11 +25,11 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
 | V5 | [暗号技術 (Cryptography)](document/5.0/ja/0x14-V5-Cryptography.md) |
 | V6 | [ネットワーク通信 (Network Communication)](document/5.0/ja/0x15-V6-Network-Communication.md) |
 
-## Project Leaders and Working Group
+## プロジェクトリーダーとワーキンググループ
 
-The project is led by [Dave Hanson](https://github.com/JeffreyShran) and [Samuel Aubert](https://github.com/matreurai), supported by some former and other active AppSec team members at Bentley Systems: [Einaras Bartkus](https://github.com/eb-bsi), [Thomas Chauchefoin](https://www.linkedin.com/in/thomaschauchefoin), and [John Cotter](https://www.linkedin.com/in/john-cotter-40338612/).
+本プロジェクトは [Dave Hanson](https://github.com/JeffreyShran) と [Samuel Aubert](https://github.com/matreurai) が主導し、Bentley Systems の AppSec チームの元メンバーおよび現メンバーである [Einaras Bartkus](https://github.com/eb-bsi), [Thomas Chauchefoin](https://www.linkedin.com/in/thomaschauchefoin), [John Cotter](https://www.linkedin.com/in/john-cotter-40338612/) が支援しています。
 
-The project is also supported by the OWASP community and the OWASP Foundation. Special thanks to [Starr Brown](https://github.com/mamicidal) for her support in her capacity as Director of Projects.
+また、本プロジェクトは OWASP コミュニティおよび OWASP Foundation も支援しています。プロジェクトのディレクターとしての立場で支援いただいた [Starr Brown](https://github.com/mamicidal) に心から感謝します。
 
 ## Standard Objectives
 
