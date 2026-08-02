@@ -31,12 +31,12 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
 
 また、本プロジェクトは OWASP コミュニティおよび OWASP Foundation も支援しています。プロジェクトのディレクターとしての立場で支援いただいた [Starr Brown](https://github.com/mamicidal) に心から感謝します。
 
-## Standard Objectives
+## 標準の目的
 
-- Help organizations adopt or adapt a high quality secure coding standard for thick client applications.
-- Help architects and developers build secure thick client software by designing and building security in, and verifying that controls are in place and effective.
-- Help security reviewers use a comprehensive, consistent, high quality standard for thick client security assessments, code reviews, and penetration testing.
-- Provide a framework for procurement and vendor assessment of thick client application security.
+- 組織がシッククライアントアプリケーション向けの高品質なセキュアコーディングスタンダードを導入または適応することを支援します。
+- アーキテクトや開発者が、セキュリティを設計および構築し、コントロールがあり、効果的であることを検証することで、セキュアなシッククライアントソフトウェアを構築することを支援します。
+- セキュリティレビュー担当者が、シッククライアントのセキュリティ評価、コードレビュー、ペネトレーションテストにおいて、包括的で、一貫性のある、高品質な標準を使用することを支援します。
+- シッククライアントアプリケーションのセキュリティの調達およびベンダー評価のためのフレームワークを提供します。
 
 ## Contributing
 
