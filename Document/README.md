@@ -68,11 +68,11 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
 
 [![Star History Chart](https://api.star-history.com/svg?repos=OWASP/TCASVS&type=Date)](https://star-history.com/#OWASP/TCASVS&Date)
 
-## License
+## ライセンス
 
-The entire project content is under the [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+プロジェクトの全コンテンツは [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) の下にあります。
 
-## Related Projects
+## 関連プロジェクト
 
 - [OWASP Application Security Verification Standard (ASVS)](https://github.com/OWASP/ASVS)
 - [OWASP Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs)
