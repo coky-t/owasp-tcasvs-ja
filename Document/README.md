@@ -50,17 +50,17 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
   <img src="https://contrib.rocks/image?repo=OWASP/TCASVS" />
 </a>
 
-## Sponsors
+## スポンサー
 
 <a href="https://www.bentley.com/company/about-us/">
   <div>
     <img src="images/BentleyLOGO_BLK_type.jpg" width="230" alt="Bentley Systems" />
   </div>
   <b>
-    Bentley is the leading provider of infrastructure engineering software, advancing infrastructure for better quality of life and sustainability.
+    Bentley は、よりよい生活の質と持続可能性に向けてインフラストラクチャを発展する、インフラストラクチャエンジニアリングソフトウェアのリーディングプロバイダです。
   </b>
   <div>
-    <sup>Visit <u>bentley.com</u> to learn more.</sup>
+    <sup>詳細については <u>bentley.com</u> をご覧ください。</sup>
   </div>
 </a>
 
