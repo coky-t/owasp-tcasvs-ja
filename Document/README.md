@@ -14,16 +14,16 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
 
 ## 最新安定版 — 5.0.0
 
-標準のソースは [`5.0/ja/`](document/5.0/ja/) にあります。三つの検証レベルにわたる 130 以上のセキュリティ要件をカバーする 6 つの章を含みます。
+標準のソースは [`5.0/ja/`](5.0/ja/) にあります。三つの検証レベルにわたる 130 以上のセキュリティ要件をカバーする 6 つの章を含みます。
 
 | 章 | タイトル |
 |----|----------|
-| V1 | [アーキテクチャと脅威モデリング (Architecture and Threat Modeling)](document/5.0/ja/0x10-V1-Architecture-and-Threat-Modeling.md) |
-| V2 | [構築、展開、環境の堅牢化 (Build, Deployment, and Environment Hardening)](document/5.0/ja/0x11-V2-Build-Deployment-and-Environment-Hardening.md) |
-| V3 | [データストレージと保護 (Data Storage and Protection)](document/5.0/ja/0x12-V3-Data-Storage-and-Protection.md) |
-| V4 | [コード品質とエクスプロイト軽減 (Code Quality and Exploit Mitigation)](document/5.0/ja/0x13-V4-Code-Quality-and-Exploit-Mitigation.md) |
-| V5 | [暗号技術 (Cryptography)](document/5.0/ja/0x14-V5-Cryptography.md) |
-| V6 | [ネットワーク通信 (Network Communication)](document/5.0/ja/0x15-V6-Network-Communication.md) |
+| V1 | [アーキテクチャと脅威モデリング (Architecture and Threat Modeling)](5.0/ja/0x10-V1-Architecture-and-Threat-Modeling.md) |
+| V2 | [構築、展開、環境の堅牢化 (Build, Deployment, and Environment Hardening)](5.0/ja/0x11-V2-Build-Deployment-and-Environment-Hardening.md) |
+| V3 | [データストレージと保護 (Data Storage and Protection)](5.0/ja/0x12-V3-Data-Storage-and-Protection.md) |
+| V4 | [コード品質とエクスプロイト軽減 (Code Quality and Exploit Mitigation)](5.0/ja/0x13-V4-Code-Quality-and-Exploit-Mitigation.md) |
+| V5 | [暗号技術 (Cryptography)](5.0/ja/0x14-V5-Cryptography.md) |
+| V6 | [ネットワーク通信 (Network Communication)](5.0/ja/0x15-V6-Network-Communication.md) |
 
 ## プロジェクトリーダーとワーキンググループ
 
@@ -38,9 +38,9 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
 - セキュリティレビュー担当者が、シッククライアントのセキュリティ評価、コードレビュー、ペネトレーションテストにおいて、包括的で、一貫性のある、高品質な標準を使用することを支援します。
 - シッククライアントアプリケーションのセキュリティの調達およびベンダー評価のためのフレームワークを提供します。
 
-## Contributing
+## 貢献
 
-Please [log issues](https://github.com/OWASP/TCASVS/issues) if you find bugs or have ideas. We welcome pull requests based on discussion in issues.
+バグを見つけたり、アイデアがある場合には [issue を記録](https://github.com/OWASP/TCASVS/issues) してください。issue での議論に基づいたプルリクエストを歓迎します。
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
