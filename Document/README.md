@@ -42,9 +42,9 @@ TCASVS はウェブアプリケーション向けの [OWASP Application Security
 
 バグを見つけたり、アイデアがある場合には [issue を記録](https://github.com/OWASP/TCASVS/issues) してください。issue での議論に基づいたプルリクエストを歓迎します。
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
+詳細な貢献ガイドラインについては [CONTRIBUTING.md](https://github.com/OWASP/TCASVS/blob/main/CONTRIBUTING.md) を参照してください。
 
-## Contributors
+## 貢献者
 
 <a href="https://github.com/OWASP/TCASVS/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=OWASP/TCASVS" />
