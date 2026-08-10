@@ -1,7 +1,7 @@
-# Appendix A: Glossary
+# 付録 A: 用語集
 
-| Term | Definition |
-|------|-----------|
+| 用語 | 定義 |
+|------|------|
 | ASLR | Address Space Layout Randomization — a memory protection technique that randomizes the locations of key data areas in a process. |
 | CFI | Control Flow Integrity — a security mechanism that restricts the set of valid call targets at each indirect branch. |
 | COM | Component Object Model — a Microsoft binary-interface standard for software componentry and interprocess communication. |

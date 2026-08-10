@@ -1,6 +1,6 @@
-# Appendix B: References
+# 付録 B: 参考情報
 
-## OWASP Projects
+## OWASP プロジェクト
 
 1. OWASP Application Security Verification Standard (ASVS): <https://owasp.org/www-project-application-security-verification-standard/>
 2. OWASP Mobile Application Security Verification Standard (MASVS): <https://owasp.org/www-project-mobile-security/>
@@ -8,7 +8,7 @@
 4. OWASP Threat Modeling: <https://owasp.org/www-community/Threat_Modeling>
 5. OWASP Cheat Sheet Series: <https://cheatsheetseries.owasp.org/>
 
-## Standards and Frameworks
+## スタンダードとフレームワーク
 
 1. NIST SP 800-57 — Key Management: <https://csrc.nist.gov/publications/detail/sp/800-57-part-1/rev-5/final>
 2. NIST SP 800-131A — Cryptographic Algorithm Transitions: <https://csrc.nist.gov/publications/detail/sp/800-131a/rev-2/final>
@@ -17,17 +17,17 @@
 5. SLSA — Supply Chain Levels for Software Artifacts: <https://slsa.dev/>
 6. CWE/SANS Top 25: <https://cwe.mitre.org/top25/>
 
-## Platform Security References
+## プラットフォームセキュリティリファレンス
 
 1. Microsoft Security Development Lifecycle: <https://www.microsoft.com/en-us/securityengineering/sdl>
 2. Microsoft DPAPI Documentation: <https://learn.microsoft.com/en-us/windows/win32/seccng/cng-dpapi>
 3. Apple Keychain Services: <https://developer.apple.com/documentation/security/keychain_services>
 4. Linux Kernel Keyring: <https://man7.org/linux/man-pages/man7/keyrings.7.html>
 
-## Relevant CWE Categories
+## 関連する CWE カテゴリ
 
-| CWE ID | Title |
-|--------|-------|
+| CWE ID | タイトル |
+|--------|----------|
 | CWE-20 | Improper Input Validation |
 | CWE-78 | OS Command Injection |
 | CWE-94 | Code Injection |

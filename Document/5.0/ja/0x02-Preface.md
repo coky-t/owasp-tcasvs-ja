@@ -1,12 +1,12 @@
-# Preface
+# 序文
 
-## Welcome to TCASVS 5.0.0
+## TCASVS 5.0.0 へようこそ
 
 The OWASP Thick Client Application Security Verification Standard (TCASVS) provides a comprehensive set of security requirements for designing, developing, and testing thick client applications — desktop software, native applications, and other locally-executed programs that operate outside a browser sandbox.
 
 This standard fills the gap between the [OWASP Application Security Verification Standard (ASVS)](https://github.com/OWASP/ASVS) for web applications and the [Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs). While these standards cover their respective domains well, thick client applications face a distinct combination of threats: they execute on user-controlled hardware, interact with local operating system resources, communicate over untrusted networks, and often run with elevated privileges.
 
-## What Changed from TASVS
+## TASVS からの変更点
 
 TCASVS 5.0.0 represents a complete restructuring of the original Thick Application Security Verification Standard (TASVS). Key changes include:
 
@@ -17,7 +17,7 @@ TCASVS 5.0.0 represents a complete restructuring of the original Thick Applicati
 - **Chapter restructuring**: Reorganized into chapters that align with ASVS conventions while remaining specific to thick client threats.
 - **Version alignment**: Adopted the `5.0.0` version number to mirror OWASP ASVS 5.0.0, signalling that TCASVS shares its format, structure, and publishing pipeline. This co-versioning is a deliberate alignment choice rather than a claim of incremental releases between TASVS 1.0 and this standard.
 
-## Chapter Structure
+## 章の構成
 
 | Chapter | Title | Focus |
 |---------|-------|-------|
@@ -28,7 +28,7 @@ TCASVS 5.0.0 represents a complete restructuring of the original Thick Applicati
 | V5 | Cryptography | Algorithms, key management, random values, transport crypto |
 | V6 | Network Communication | TLS, service exposure, data leakage, IPC, license validation |
 
-## Security Verification Levels
+## セキュリティ検証レベル
 
 The TCASVS defines three verification levels:
 
@@ -36,7 +36,7 @@ The TCASVS defines three verification levels:
 - **Level 2 (L2)** — Standard security for applications that handle sensitive data or operate in higher-risk environments. Includes defense-in-depth measures and assumes a more capable adversary.
 - **Level 3 (L3)** — Advanced security for applications operating in hostile environments, handling highly sensitive data, or requiring resistance to targeted attacks by skilled adversaries with physical access and reverse engineering capabilities.
 
-## How to Use This Standard
+## 本標準の使い方
 
 The TCASVS can be used as:
 

@@ -1,30 +1,30 @@
-# Using the TCASVS
+# TCASVS を使用するには
 
-## Thick Client Application Security Verification Levels
+## シッククライアントアプリケーションセキュリティ検証レベル
 
 The TCASVS defines three security verification levels, with each level increasing in depth and rigour.
 
-### TCASVS Level 1 — Baseline
+### TCASVS レベル 1 — 基準 (Baseline)
 
 Level 1 is the minimum security standard that all thick client applications should achieve. It focuses on requirements that address the most common and easily exploitable vulnerabilities: hardcoded credentials, missing TLS enforcement, disabled exploit mitigations, and unsafe input handling.
 
 A Level 1 assessment can typically be performed through a combination of automated scanning, binary analysis, and targeted manual testing.
 
-### TCASVS Level 2 — Standard
+### TCASVS レベル 2 — 標準 (Standard)
 
 Level 2 is appropriate for applications that handle sensitive data (PII, financial data, health records), operate in enterprise environments, or face a moderately capable adversary. It adds defense-in-depth requirements including threat modeling, privilege separation, certificate pinning, secure IPC, and runtime integrity checks.
 
 A Level 2 assessment requires access to source code or debug symbols, architecture documentation, and a thorough security review process.
 
-### TCASVS Level 3 — Advanced
+### TCASVS レベル 3 — 高度 (Advanced)
 
 Level 3 is reserved for applications operating in hostile environments where the local OS cannot be trusted, where targeted attacks by skilled adversaries are expected, or where compromise would result in significant harm. This includes applications with DRM, anti-cheat, financial trading, critical infrastructure control, or handling classified data.
 
 Level 3 adds requirements for hardware-backed security, advanced tamper resistance, coverage-guided fuzzing, and cryptographic agility.
 
-## Applying the Standard
+## 本標準を適用するには
 
-### For Developers
+### 開発者向け
 
 Use TCASVS requirements as security acceptance criteria during development:
 
@@ -33,7 +33,7 @@ Use TCASVS requirements as security acceptance criteria during development:
 3. Implement requirements as verifiable security controls.
 4. Write test cases that validate each requirement is met.
 
-### For Security Testers
+### セキュリティテスト担当者向け
 
 Use TCASVS as a testing framework:
 
@@ -42,7 +42,7 @@ Use TCASVS as a testing framework:
 3. Document findings against specific requirement IDs.
 4. Report gaps as deviations from the target level.
 
-### For Organizations
+### 組織向け
 
 Use TCASVS as a governance tool:
 
@@ -51,7 +51,7 @@ Use TCASVS as a governance tool:
 3. Track compliance over time as a maturity metric.
 4. Use gaps between current state and target level to prioritize security investment.
 
-## Scope
+## スコープ
 
 The TCASVS covers security requirements specific to thick client applications — software that executes locally on user-controlled endpoints. This includes:
 
