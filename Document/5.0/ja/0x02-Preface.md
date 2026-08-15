@@ -2,9 +2,9 @@
 
 ## TCASVS 5.0.0 へようこそ
 
-The OWASP Thick Client Application Security Verification Standard (TCASVS) provides a comprehensive set of security requirements for designing, developing, and testing thick client applications — desktop software, native applications, and other locally-executed programs that operate outside a browser sandbox.
+OWASP Thick Client Application Security Verification Standard (TCASVS) は、シッククライアントアプリケーション (デスクトップソフトウェア、ネイティブアプリケーション、その他のブラウザサンドボックスの外で動作するローカル実行プログラム) の設計、開発、テストに関する包括的なセキュリティ要件を提示します。
 
-This standard fills the gap between the [OWASP Application Security Verification Standard (ASVS)](https://github.com/OWASP/ASVS) for web applications and the [Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs). While these standards cover their respective domains well, thick client applications face a distinct combination of threats: they execute on user-controlled hardware, interact with local operating system resources, communicate over untrusted networks, and often run with elevated privileges.
+本標準はウェブアプリケーション向けの [OWASP Application Security Verification Standard (ASVS)](https://github.com/OWASP/ASVS) と [Mobile Application Security Verification Standard (MASVS)](https://github.com/OWASP/owasp-masvs) との間のギャップを埋めるものです。これらの標準はそれぞれの領域を十分にカバーしていますが、シッククライアントアプリケーションは特有の脅威の組み合わせに直面しています。ユーザーが制御するハードウェア上で実行し、ローカルオペレーティングシステムリソースとやり取りし、信頼できないネットワーク経由で通信し、多くの場合、昇格された権限で動作します。
 
 ## TASVS からの変更点
 
