@@ -8,14 +8,14 @@ OWASP Thick Client Application Security Verification Standard (TCASVS) は、シ
 
 ## TASVS からの変更点
 
-TCASVS 5.0.0 represents a complete restructuring of the original Thick Application Security Verification Standard (TASVS). Key changes include:
+TCASVS 5.0.0 は元来の Thick Application Security Verification Standard (TASVS) を全面的に再構築したものです。主な変更点は以下のとおりです。
 
-- **Requirement ID format**: Adopted ASVS numbering (`V{chapter}.{section}.{item}`) replacing the old `TASVS-{CATEGORY}-{group}.{item}` scheme.
-- **Level definitions**: Clarified L1/L2/L3 applicability per requirement using a single numeric `Level` column (the lowest applicable level), replacing the old X/blank notation.
-- **CWE traceability**: Every requirement now maps to a CWE identifier.
-- **Expanded coverage**: From 79 original requirements to over 130 across 6 chapters, with significant gap-fills for build security, memory safety, IPC, and runtime integrity.
-- **Chapter restructuring**: Reorganized into chapters that align with ASVS conventions while remaining specific to thick client threats.
-- **Version alignment**: Adopted the `5.0.0` version number to mirror OWASP ASVS 5.0.0, signalling that TCASVS shares its format, structure, and publishing pipeline. This co-versioning is a deliberate alignment choice rather than a claim of incremental releases between TASVS 1.0 and this standard.
+- **要件 ID の形式**: 以前の `TASVS-{CATEGORY}-{group}.{item}` スキームを置き換え、ASVS ナンバリング (`V{chapter}.{section}.{item}`) を採用しました。
+- **レベル定義**: 以前の X や空欄での表記を置き換え、単一の数値による `レベル` 列 (最低適用可能レベル) を使用して、要件ごとに L1/L2/L3 の適用を明確にしました。
+- **CWE とのトレーサビリティ**: すべての要件は現在 CWE 識別子にマップしています。
+- **カバレッジの拡張**: 以前の 79 要件から 6 章にわたる 130 以上になり、ビルドセキュリティ、メモリ安全性、IPC、ランタイム完全性に対する重要な補完を伴います。
+- **章の再構成**: シッククライアント特有の脅威を残しつつ、ASVS の慣行に準拠した章立てに再編しました。
+- **バージョンの整合**: OWASP ASVS 5.0.0 に合わせてバージョン番号 `5.0.0` を採用しました。TCASVS が ASVS の形式、構成、公開パイラインを共有していることを示すものです。この共通のバージョン付けは、TASVS 1.0 と本標準との段階的なリリースであることを主張するものではなく、意図的に整合を選択したものです。
 
 ## 章の構成
 
