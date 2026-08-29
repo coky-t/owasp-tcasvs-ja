@@ -19,14 +19,14 @@ TCASVS 5.0.0 は元来の Thick Application Security Verification Standard (TASV
 
 ## 章の構成
 
-| Chapter | Title | Focus |
-|---------|-------|-------|
-| V1 | Architecture and Threat Modeling | Threat models, security architecture, attack surface management |
-| V2 | Build, Deployment, and Environment Hardening | Supply chain, compiler mitigations, installers, privilege management |
-| V3 | Data Storage and Protection | Data classification, file storage, credentials, memory, temp data |
-| V4 | Code Quality and Exploit Mitigation | Input validation, memory safety, deserialization, runtime integrity |
-| V5 | Cryptography | Algorithms, key management, random values, transport crypto |
-| V6 | Network Communication | TLS, service exposure, data leakage, IPC, license validation |
+| 章 | タイトル | 焦点 |
+|----|----------|------|
+| V1 | アーキテクチャと脅威モデリング (Architecture and Threat Modeling) | 脅威モデル、セキュリティアーキテクチャ、攻撃対象領域管理 |
+| V2 | 構築、展開、環境の堅牢化 (Build, Deployment, and Environment Hardening) | サプライチェーン、コンパイラ緩和策、インストーラ、権限管理 |
+| V3 | データストレージと保護 (Data Storage and Protection) | データ分類、ファイルストレージ、クレデンシャル、メモリ、一時データ |
+| V4 | コード品質とエクスプロイト軽減 (Code Quality and Exploit Mitigation) | 入力バリデーション、メモリ安全性、デシリアライゼーション、ランタイム完全性 |
+| V5 | 暗号技術 (Cryptography) | アルゴリズム、鍵管理、乱数、通信の暗号化 |
+| V6 | ネットワーク通信 (Network Communication) | TLS、サービス公開、データ漏洩、IPC、ライセンスバリデーション |
 
 ## セキュリティ検証レベル
 
