@@ -30,11 +30,11 @@ TCASVS 5.0.0 は元来の Thick Application Security Verification Standard (TASV
 
 ## セキュリティ検証レベル
 
-The TCASVS defines three verification levels:
+TCASVS は以下の三つの検証レベルを定義しています。
 
-- **Level 1 (L1)** — Baseline security appropriate for all thick client applications. These requirements address the most common and easily exploitable weaknesses.
-- **Level 2 (L2)** — Standard security for applications that handle sensitive data or operate in higher-risk environments. Includes defense-in-depth measures and assumes a more capable adversary.
-- **Level 3 (L3)** — Advanced security for applications operating in hostile environments, handling highly sensitive data, or requiring resistance to targeted attacks by skilled adversaries with physical access and reverse engineering capabilities.
+- **レベル 1 (L1)** — すべてのシッククライアントアプリケーションに適した基本的なセキュリティです。これらの要件は最も一般的かつ容易に悪用できる脆弱性を対処します。
+- **レベル 2 (L2)** — 機密データを扱うアプリケーションや、よりリスクの高い環境で運用するアプリケーションのための標準的なセキュリティです。多層防御策を含み、より高度な能力を持つ敵対者を想定します。
+- **レベル 3 (L3)** — 敵対的な環境で運用するアプリケーション、より機密性の高いデータを扱うアプリケーション、あるいは物理的なアクセスやリバースエンジニアリング能力を持つ熟練した敵対者による標的型攻撃への耐性を要するアプリケーションのための高度なセキュリティです。
 
 ## 本標準の使い方
 
