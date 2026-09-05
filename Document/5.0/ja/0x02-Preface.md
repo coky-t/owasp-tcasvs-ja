@@ -38,11 +38,11 @@ TCASVS は以下の三つの検証レベルを定義しています。
 
 ## 本標準の使い方
 
-The TCASVS can be used as:
+TCASVS は以下のように使用できます。
 
-1. **A development guide** — Requirements inform secure design decisions during architecture and implementation.
-2. **A verification checklist** — Security testers use requirements as test cases during assessments.
-3. **A procurement specification** — Organizations include TCASVS compliance in vendor security requirements.
-4. **A maturity benchmark** — Teams assess their current security posture against defined levels and plan improvements.
+1. **開発ガイド** — 要件はアーキテクチャや実装時にセキュアな設計判断を与えます。
+2. **検証チェックリスト** — セキュリティテスト担当者は評価時のテストケースとして要件を使用します。
+3. **調達仕様書** — 組織はベンダーのセキュリティ要件に TCASVS 準拠を含めます。
+4. **成熟度ベンチマーク** — チームは、定義されたレベルに対して現在のセキュリティ態勢を評価し、改善を計画します。
 
-Select the appropriate level based on the application's risk profile, then verify all requirements at that level and below are met.
+アプリケーションのリスクプロファイルに基づいて適切なレベルを選択し、そのレベルおよびそれ以下のすべての要件が満たされていることを検証します。
