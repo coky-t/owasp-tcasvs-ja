@@ -2,7 +2,7 @@
 
 ## シッククライアントアプリケーションセキュリティ検証レベル
 
-The TCASVS defines three security verification levels, with each level increasing in depth and rigour.
+TCASVS は三つのセキュリティ検証レベルを定義しており、各レベルは深さと厳しさを増していきます。
 
 ### TCASVS レベル 1 — 基準 (Baseline)
 
