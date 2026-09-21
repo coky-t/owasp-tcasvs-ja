@@ -6,9 +6,9 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ### TCASVS レベル 1 — 基準 (Baseline)
 
-Level 1 is the minimum security standard that all thick client applications should achieve. It focuses on requirements that address the most common and easily exploitable vulnerabilities: hardcoded credentials, missing TLS enforcement, disabled exploit mitigations, and unsafe input handling.
+レベル 1 はすべてのシッククライアントアプリケーションが満たすべき最低限のセキュリティ標準です。これは最も一般的かつ容易に悪用できる脆弱性 (ハードコードされたクレデンシャル、TLS 強制の欠如、無効化されたエクスプロイト緩和策、安全でない入力処理) を取り扱う要件に焦点を当てています。
 
-A Level 1 assessment can typically be performed through a combination of automated scanning, binary analysis, and targeted manual testing.
+レベル 1 の評価は、一般的に、自動スキャン、バイナリ解析、対象を絞った手動テストの組み合わせを通じて実施できます。
 
 ### TCASVS レベル 2 — 標準 (Standard)
 
