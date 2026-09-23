@@ -12,9 +12,9 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ### TCASVS レベル 2 — 標準 (Standard)
 
-Level 2 is appropriate for applications that handle sensitive data (PII, financial data, health records), operate in enterprise environments, or face a moderately capable adversary. It adds defense-in-depth requirements including threat modeling, privilege separation, certificate pinning, secure IPC, and runtime integrity checks.
+レベル 2 は、機密データ (PII、金融データ、健康記録) を処理したり、エンタープライズ環境で動作したり、中程度の能力を有する敵対者に直面するアプリケーションに適しています。これには、脅威モデリング、権限分離、証明書ピン留め、セキュア IPC、ランタイム完全性チェックなどの多層防御要件を追加しています。
 
-A Level 2 assessment requires access to source code or debug symbols, architecture documentation, and a thorough security review process.
+レベル 2 評価には、ソースコードやデバッグシンボル、アーキテクチャドキュメントへのアクセス、徹底したセキュリティレビュープロセスを必要とします。
 
 ### TCASVS レベル 3 — 高度 (Advanced)
 
