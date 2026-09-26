@@ -18,9 +18,9 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ### TCASVS レベル 3 — 高度 (Advanced)
 
-Level 3 is reserved for applications operating in hostile environments where the local OS cannot be trusted, where targeted attacks by skilled adversaries are expected, or where compromise would result in significant harm. This includes applications with DRM, anti-cheat, financial trading, critical infrastructure control, or handling classified data.
+レベル 3 は、ローカル OS が信頼できない、熟練した敵対者による標的型攻撃が想定される、あるいは侵害されると甚大な被害につながる、敵対的な環境で動作するアプリケーションに予約されています。これは、DRM、アンチチート、金融取引、重要インフラストラクチャ制御、機密データを扱うアプリケーションを含みます。
 
-Level 3 adds requirements for hardware-backed security, advanced tamper resistance, coverage-guided fuzzing, and cryptographic agility.
+レベル 3 では、ハードウェア支援のセキュリティ、高度な改竄耐性、カバレッジガイド型ファジング、暗号アジリティに関する要件を追加します。
 
 ## 本標準を適用するには
 
