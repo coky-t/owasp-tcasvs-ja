@@ -26,12 +26,12 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ### 開発者向け
 
-Use TCASVS requirements as security acceptance criteria during development:
+開発時のセキュリティ受け入れ基準として TCASVS 要件を使用します。
 
-1. Identify your target level based on the application's risk profile.
-2. Review relevant chapter requirements during design and implementation.
-3. Implement requirements as verifiable security controls.
-4. Write test cases that validate each requirement is met.
+1. アプリケーションのリスクプロファイルに基づき、ターゲットレベルを特定します。
+2. 設計および実装時に、関連する章の要件をレビューします。
+3. 検証可能なセキュリティコントロールとして要件を実装します。
+4. 各要件が満たされていることを検証するテストケースを記述します。
 
 ### セキュリティテスト担当者向け
 
