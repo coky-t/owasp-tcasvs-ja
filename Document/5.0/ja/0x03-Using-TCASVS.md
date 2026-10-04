@@ -35,12 +35,12 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ### セキュリティテスト担当者向け
 
-Use TCASVS as a testing framework:
+テストフレームワークとして TCASVS を使用します。
 
-1. Scope the assessment to the appropriate level.
-2. Use chapter requirements as test cases.
-3. Document findings against specific requirement IDs.
-4. Report gaps as deviations from the target level.
+1. 評価を適切なレベルにスコープ付けします。
+2. 章の要件をテストケースとして使用します。
+3. 特定の要件 ID に対する検出結果を文書化します。
+4. ギャップをターゲットレベルからの逸脱として報告します。
 
 ### 組織向け
 
