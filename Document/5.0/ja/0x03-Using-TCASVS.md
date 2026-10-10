@@ -44,12 +44,12 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ### 組織向け
 
-Use TCASVS as a governance tool:
+ガバナンスツールとして TCASVS を使用します。
 
-1. Define the target level in security policies.
-2. Include TCASVS compliance in vendor assessments and procurement.
-3. Track compliance over time as a maturity metric.
-4. Use gaps between current state and target level to prioritize security investment.
+1. セキュリティポリシーにターゲットレベルを定義します。
+2. ベンダー評価や調達に TCASVS 準拠を含めます。
+3. 成熟度指標として準拠を経時的に追跡します。
+4. 現状とターゲットレベルの間のギャップを使用して、セキュリティ投資を優先付けします。
 
 ## スコープ
 
