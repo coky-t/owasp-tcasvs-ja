@@ -53,20 +53,20 @@ TCASVS は三つのセキュリティ検証レベルを定義しており、各�
 
 ## スコープ
 
-The TCASVS covers security requirements specific to thick client applications — software that executes locally on user-controlled endpoints. This includes:
+TCASVS は、ユーザーが制御するエンドポイント上でローカルに実行するソフトウェアである、シッククライアントアプリケーションに特有のセキュリティ要件をカバーします。これは以下を含みます。
 
-- Desktop applications (Windows, macOS, Linux)
-- Native applications with local installation
-- Client-server applications where the client runs outside a browser
-- Electron, Qt, WPF, WinForms, Swing, and similar framework applications
-- Games and multimedia applications
-- Enterprise tools and productivity software
+- デスクトップアプリケーション (Windows, macOS, Linux)
+- ローカルインストールでのネイティブアプリケーション
+- クライアントがブラウザの外部で動作するクライアントサーバーアプリケーション
+- Electron, Qt, WPF, WinForms, Swing, および類似のフレームワークのアプリケーション
+- ゲームおよびマルチメディアアプリケーション
+- エンタープライズツールおよび生産性向上ソフトウェア
 
-The TCASVS does **not** cover:
+TCASVS は以下をカバー **していません**。
 
-- Server-side API security (use [OWASP ASVS](https://github.com/OWASP/ASVS))
-- Mobile applications (use [OWASP MASVS](https://github.com/OWASP/owasp-masvs))
-- Web applications running in a browser (use OWASP ASVS)
-- IoT firmware (specialized standards apply)
+- サーバーサイド API セキュリティ ([OWASP ASVS](https://github.com/OWASP/ASVS) を使用する)
+- モバイルアプリケーション ([OWASP MASVS](https://github.com/OWASP/owasp-masvs) を使用する)
+- ブラウザ内で動作するウェブアプリケーション (OWASP ASVS を使用する)
+- IoT ファームウェア (専門的な標準を適用する)
 
-Where thick clients communicate with backend services, the TCASVS covers the client-side implementation of that communication. Server-side security should be verified independently using the ASVS.
+シッククライアントがバックエンドサービスと通信する場合、TCASVS はその通信のクライアントサイドの実装をカバーします。サーバーサイドセキュリティは ASVS を使用して別途検証する必要があります。
