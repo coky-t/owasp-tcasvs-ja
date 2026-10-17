@@ -2,7 +2,7 @@
 
 ## 管理目標
 
-Thick client applications operate in uniquely hostile environments: they execute on hardware controlled by end users, communicate across untrusted networks, interact with local operating system resources, and often run with elevated privileges. Unlike web applications confined to a browser sandbox, thick clients expose a broad and heterogeneous attack surface spanning local filesystems, inter-process communication, kernel interfaces, and network endpoints. Without a structured threat model and deliberate architecture security design, teams cannot systematically identify, prioritize, or mitigate the risks specific to this deployment model. This chapter ensures that thick client applications are designed with security as a first-class architectural concern, that threats are identified and tracked throughout the development lifecycle, and that the full attack surface — including client-specific vectors such as binary tampering, memory manipulation, and privilege escalation — is documented and managed.
+シッククライアントアプリケーションは極めて過酷な環境で動作します。エンドユーザーが制御するハードウェア上で実行し、信頼できないネットワークを介して通信し、ローカルのオペレーティングシステムリソースとやり取りし、多くの場合、昇格した権限で動作します。ブラウザのサンドボックスに制限されるウェブアプリケーションとは異なり、シッククライアントは、ローカルファイルシステム、プロセス間通信、カーネルインタフェース、ネットワークエンドポイントにわたる、広範かつ多様な攻撃対象領域をさらします。構造化された脅威モデルと意図的なアーキテクチャセキュリティ設計なしでは、チームはこのデプロイメントモデルに特有のリスクを体系的に特定し、優先順位付けし、緩和することができません。この章では、シッククライアントアプリケーションがセキュリティを最優先のアーキテクチャ上の課題として設計され、脅威が開発ライフサイクル全体を通じて特定および追跡され、バイナリ改竄、メモリ操作、権限昇格といったクライアント特有のベクトルを含む、攻撃対象領域全体が文書化および管理されることを確保します。
 
 ## V1.1 脅威モデルの文書化 (Threat Model Documentation)
 
