@@ -6,16 +6,16 @@
 
 ## V1.1 脅威モデルの文書化 (Threat Model Documentation)
 
-A threat model is only useful if it is documented, accessible, and specific enough to drive security decisions. For thick client applications, threat models must account for attack surfaces that do not exist in server-only architectures: local storage, IPC mechanisms, OS-level interactions, and the reality that attackers have full physical access to the client binary. These requirements ensure that threat models exist, are appropriately detailed for the application's risk level, and cover the full scope of thick client deployment.
+脅威モデルは、文書化され、アクセス可能であり、セキュリティ判断を導くために十分具体的である場合にのみ役立ちます。シッククライアントアプリケーションでは、脅威モデルは、サーバーのみのアーキテクチャに存在しない攻撃対象領域 (ローカルストレージ、IPC メカニズム、OS レベルインタラクション) と、攻撃者がクライアントバイナリに物理的に完全にアクセスできるという現実を考慮に入れる必要があります。これらの要件は、脅威モデルが存在し、アプリケーションのリスクレベルに応じた適切な詳細さを備え、シッククライアントのデプロイメント全体をカバーすることを確保します。
 
 | # | 説明 | レベル | ソース |
 |---|------|:------:|--------|
-| V1.1.1 | Verify that a threat model exists for the thick client application, identifying at minimum the application's entry points, assets, trust boundaries, and high-level threats relevant to client-side, server-side, network, and local attack surfaces. | 1 | TASVS |
-| V1.1.2 | Verify that a detailed threat model is maintained for the production application, including data flow diagrams, STRIDE or equivalent threat classification for each component, and risk-rated threat scenarios with documented mitigations. | 2 | TASVS |
-| V1.1.3 | Verify that the threat model scope explicitly includes all server-side components, third-party dependencies, cloud service integrations (APIs, OIDC providers, file storage), and the communication channels between client and server. | 2 | TASVS |
-| V1.1.4 | Verify that threat model artifacts are stored in the source code repository alongside the application code, versioned, and reviewable as part of the standard change process. | 1 | TASVS |
-| V1.1.5 | Verify that the threat model documents all trust boundaries in the application, including boundaries between user-mode and kernel-mode components, between processes of different privilege levels, and between the client application and backend services. | 2 | New |
-| V1.1.6 | Verify that data flow diagrams identify all paths where sensitive data (credentials, tokens, PII, business-critical data) traverses trust boundaries, and document the protection mechanisms applied at each crossing. | 2 | New |
+| V1.1.1 | 脅威モデルがシッククライアントアプリケーションに対して存在しており、少なくともアプリケーションのエントリポイント、資産、信頼境界、およびクライアントサイド、サーバーサイド、ネットワーク、ローカルの攻撃対象領域に関する高レベルの脅威を特定していることを検証します。 | 1 | TASVS |
+| V1.1.2 | 詳細な脅威モデルが本番アプリケーションに対して維持されており、データフロー図、各コンポーネントに対する STRIDE または同等の脅威分類、リスク評価済みの脅威シナリオと文書化された緩和策を含むことを検証します。 | 2 | TASVS |
+| V1.1.3 | 脅威モデルのスコープが、すべてのサーバーサイドコンポーネント、サードパーティの依存関係、クラウドサービスとの統合 (API、OIDC プロバイダ、ファイルストレージ)、クライアントとサーバー間の通信チャネルを明示的に含むことを検証します。 | 2 | TASVS |
+| V1.1.4 | 脅威モデルアーティファクトがアプリケーションコードとともにソースコードリポジトリに格納され、バージョン管理され、標準的な変更プロセスの一環としてレビュー可能であることを検証します。 | 1 | TASVS |
+| V1.1.5 | 脅威モデルがアプリケーション内のすべての信頼境界を文書化しており、ユーザーモードコンポーネントとカーネルモードコンポーネント間の境界、異なる権限レベルのプロセス間の境界、クライアントアプリケーションとバックエンドサービス間の境界を含むことを検証します。 | 2 | New |
+| V1.1.6 | データフロー図が、機密データ (クレデンシャル、トークン、PII、ビジネス上重要なデータ) が信頼境界を渡るすべての経路を特定し、各通過点に適用される保護メカニズムを文書化していることを検証します。 | 2 | New |
 
 ## V1.2 脅威モデリングのプロセス (Threat Modeling Process)
 
