@@ -19,14 +19,14 @@
 
 ## V1.2 脅威モデリングのプロセス (Threat Modeling Process)
 
-Creating a threat model once and filing it away provides little ongoing value. Thick client applications evolve rapidly — new features expose new IPC channels, dependency updates introduce new attack surface, and architectural changes shift trust boundaries. These requirements ensure that threat modeling is a living process integrated into the secure development lifecycle, not a one-time compliance exercise.
+脅威モデルを一度作成して保管しておいても、継続的な価値をほとんど提供しません。シッククライアントアプリケーションは急速に進化します。新機能は新しい IPC チャネルをさらし、依存関係の更新は新しい攻撃対象領域をもたらし、アーキテクチャの変更は信頼境界を変化します。これらの要件は、脅威モデリングが、単発のコンプライアンス対応作業ではなく、セキュア開発ライフサイクルに組み込まれた生きたプロセスであることを確認します。
 
 | # | 説明 | レベル | ソース |
 |---|------|:------:|--------|
-| V1.2.1 | Verify that the threat modeling process encompasses all phases: system modeling (architecture decomposition), automated threat identification (tooling-assisted), manual threat identification (expert review), and threat mitigation planning with assigned owners. | 2 | TASVS |
-| V1.2.2 | Verify that the threat model is reviewed and updated at defined intervals and upon significant architectural changes, as part of the development team's documented secure development lifecycle (SSDLC). | 2 | TASVS |
-| V1.2.3 | Verify that the threat model is validated against the implemented application by confirming that documented mitigations are present and effective, and that no undocumented attack surfaces exist. | 3 | New |
-| V1.2.4 | Verify that threat modeling outputs are used as input for security test planning, with each identified threat having at least one corresponding test case or verification activity. | 2 | New |
+| V1.2.1 | 脅威モデリングのプロセスがすべてのフェーズ (システムモデリング (アーキテクチャの分解)、自動化された脅威の特定 (ツールを活用)、手動による脅威の特定 (専門家のレビュー)、脅威緩和計画と担当者の割り当て) を包含することを検証します。 | 2 | TASVS |
+| V1.2.2 | 開発チームが文書化したセキュア開発ライフサイクル (SSDLC) の一環として、脅威モデルが所定の間隔で、あるいは重大なアーキテクチャの変更で、レビューおよび更新されることを検証します。 | 2 | TASVS |
+| V1.2.3 | 文書化された緩和策が存在しており、かつ有効であることを確認し、さらに文書化されていない攻撃対象領域が存在しないことを確認することで、脅威モデルが実装済みアプリケーションに対して妥当性確認されていることを検証します。 | 3 | New |
+| V1.2.4 | 脅威モデリングの出力がセキュリティテスト計画の入力として使用されており、特定された各脅威には少なくとも一つの対応するテストケースや検証アクティビティがあることを検証します。 | 2 | New |
 
 ## V1.3 アーキテクチャセキュリティ設計 (Architecture Security Design)
 
