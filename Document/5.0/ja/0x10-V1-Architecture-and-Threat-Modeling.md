@@ -30,15 +30,15 @@
 
 ## V1.3 アーキテクチャセキュリティ設計 (Architecture Security Design)
 
-Thick clients face architectural challenges that server-side applications do not: they must manage privilege separation across local processes, isolate plugin subsystems that run untrusted code, secure their own update mechanisms against tampering, and sometimes operate in adversarial environments where the local OS itself cannot be trusted. These requirements ensure that security is designed into the architecture rather than bolted on after deployment.
+シッククライアントは、サーバーサイドアプリケーションにはないアーキテクチャ上の課題に直面します。ローカルプロセス間の権限分離の管理、信頼できないコードを実行するプラグインサブシステムの隔離、改竄に対するアップデートメカニズムの保護、そしてローカル OS 自体を信頼できないような敵対的環境の動作をしなければならないこともあります。これらの要件は、セキュリティがデプロイメント後に追加されるのではなく、アーキテクチャに設計されていることを確認します。
 
 | # | 説明 | レベル | ソース |
 |---|------|:------:|--------|
-| V1.3.1 | Verify that architecture documentation describes the privilege separation model, including which components run at elevated privilege, what IPC mechanisms connect them, and how the principle of least privilege is applied to each process. | 1 | New |
-| V1.3.2 | Verify that the architecture documents security design principles applied to the thick client, including defense in depth, fail-secure defaults, complete mediation, and economy of mechanism. | 2 | New |
-| V1.3.3 | Verify that the architecture documents how plugin, extension, or scripting subsystems are isolated from the host application, including what APIs are exposed, what permissions are required, and how malicious plugins are prevented from accessing privileged functionality. | 2 | New |
-| V1.3.4 | Verify that the architecture documents the application's update and patching mechanism design, including the trust chain for update verification, rollback capabilities, and how partial or failed updates are handled securely. | 2 | New |
-| V1.3.5 | Verify that the architecture documents how the application handles execution in an adversarial local environment where the OS, other processes, and the user may be hostile (e.g., anti-cheat, DRM, or security-sensitive applications). | 3 | New |
+| V1.3.1 | アーキテクチャドキュメントが、どのコンポーネントを昇格された権限で実行しているか、どのような IPC メカニズムでそれらを接続しているか、最小権限の原則を各プロセスにどのように適用しているかを含む、権限分離モデルを記述していることを検証します。 | 1 | New |
+| V1.3.2 | アーキテクチャが、多層防御、フェイルセキュアなデフォルト、完全な仲介、メカニズムのエコノミーなど、シッククライアントに適用されるセキュリティ設計原則を文書化していることを検証します。 | 2 | New |
+| V1.3.3 | アーキテクチャが、プラグイン、拡張、スクリプトサブシステムで、どの API が公開されているか、どのパーミッションが要求されているか、悪意のあるプラグインが権限を必要とする機能へのアクセスからどのように防止されているかを含む、ホストアプリケーションからどのように分離されているかを文書化していることを検証します。 | 2 | New |
+| V1.3.4 | アーキテクチャが、更新検証のためのトラストチェーン、ロールバック機能、部分更新や失敗した更新を安全に処理する方法を含む、アプリケーションの更新とパッチ適用メカニズムの設計を文書化していることを検証します。 | 2 | New |
+| V1.3.5 | アーキテクチャが、OS、他のプロセス、ユーザーが敵意を持つ (アンチチート、DRM、セキュリティ上重要なアプリケーションなど) ことがあり得る敵対的なローカル環境での実行をアプリケーションがどのように処理するのかを文書化していることを検証します。 | 3 | New |
 
 ## V1.4 攻撃対象領域管理 (Attack Surface Management)
 
