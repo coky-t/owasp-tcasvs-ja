@@ -42,14 +42,14 @@
 
 ## V1.4 攻撃対象領域管理 (Attack Surface Management)
 
-Thick clients expose attack surface across multiple dimensions simultaneously: local filesystem paths, registry keys, named pipes, shared memory, COM objects, listening network ports, outbound connections, and user-facing input vectors. Unlike server applications where the attack surface is primarily network-facing, thick clients must defend against local attackers with debugger access, binary analysis tools, and the ability to inject code into the process. These requirements ensure the full attack surface is identified, documented, and actively managed as the application evolves.
+シッククライアントは、ローカルファイルシステムパス、レジストリキー、名前付きパイプ、共有メモリ、COM オブジェクト、リッスンしているネットワークポート、アウトバウンド接続、ユーザーが面する入力ベクトルといった、多岐にわたる攻撃対象領域を同時にさらしています。攻撃対象領域が主にネットワークに面するサーバーアプリケーションとは異なり、シッククライアントは、デバッガアクセス、バイナリ解析ツール、プロセスにコードを注入する能力を持つローカルの攻撃者に対しても防御しなければなりません。これらの要件は、アプリケーションの進化に合わせて、攻撃対象領域全体を特定し、文書化し、能動的に管理するようにします。
 
 | # | 説明 | レベル | ソース |
 |---|------|:------:|--------|
-| V1.4.1 | Verify that the application's attack surface is documented, including all local interfaces (filesystem paths, registry keys, named pipes, shared memory, COM objects), network interfaces (listening ports, outbound connections), and user-facing input vectors. | 1 | New |
-| V1.4.2 | Verify that the attack surface documentation identifies which interfaces are exposed to unauthenticated or low-privilege callers, and that each such interface has documented input validation and access control expectations. | 2 | New |
-| V1.4.3 | Verify that the threat model explicitly addresses thick-client-specific attack vectors, including binary reverse engineering, memory tampering, local privilege escalation, DLL/dylib injection, debugger attachment, and inter-process communication abuse. | 1 | New |
-| V1.4.4 | Verify that attack surface changes introduced by new features or dependency updates are assessed and the threat model is updated before deployment to production. | 2 | New |
+| V1.4.1 | アプリケーションの攻撃対象領域が、すべてのローカルインタフェース (ファイルシステムパス、レジストリキー、名前付きパイプ、共有メモリ、COM オブジェクト)、ネットワークインタフェース (リッスンしているポート、アウトバウンド接続)、ユーザーが面する入力ベクトルなどを文書化していることを検証します。 | 1 | New |
+| V1.4.2 | 攻撃対象領域ドキュメントが、認証されていない呼び出し元や低い権限の呼び出し元にどのインタフェースを公開しているかを特定していること、および、そのような各インタフェースが入力バリデーションおよびアクセス制御の要求を文書化されていることを検証します。 | 2 | New |
+| V1.4.3 | 脅威モデルが、バイナリリバースエンジニアリング、メモリ改竄、ローカル権限昇格、DLL/dylib インジェクション、デバッガアタッチメント、プロセス間通信の悪用を含む、シッククライアント特有の攻撃ベクトルを明示的に扱っていることを検証します。 | 1 | New |
+| V1.4.4 | 本番へのデプロイメント前に、新機能や依存関係の更新によってもたらされる攻撃対象領域の変化が評価され、脅威モデルが更新されていることを検証します。 | 2 | New |
 
 ## 参考情報
 
