@@ -2,7 +2,7 @@
 
 ## 管理目標
 
-Ensure that thick client applications are built, packaged, deployed, and configured in a manner that eliminates unnecessary attack surface and leverages available platform security features. This chapter covers supply chain integrity, compiler-level exploit mitigations, secure installation and update mechanisms, and runtime privilege minimization.
+シッククライアントアプリケーションは、不要な攻撃対象領域を排除し、利用可能なプラットフォームセキュリティ機能を活用するような形で構築、パッケージ化、デプロイ、構成されるようにします。この章では、サプライチェーンの完全性、コンパイラレベルのエクスプロイト緩和、安全なインストールおよびアップデートのメカニズム、実行時権限の最小化をカバーします。
 
 ## V2.1 ビルドとサプライチェーンのセキュリティ (Build and Supply Chain Security)
 
