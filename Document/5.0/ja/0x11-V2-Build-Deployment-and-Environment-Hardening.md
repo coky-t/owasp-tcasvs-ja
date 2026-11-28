@@ -6,18 +6,18 @@
 
 ## V2.1 ビルドとサプライチェーンのセキュリティ (Build and Supply Chain Security)
 
-This section addresses the integrity of the build pipeline and third-party dependencies, ensuring that production artifacts are trustworthy, minimal, and traceable.
+このセクションはビルドパイプラインとサードパーティ依存関係の完全性を取り扱い、製品アーティファクトが信頼でき、最小限であり、追跡可能であることを確保します。
 
 | # | 説明 | レベル | ソース |
 |---|------|:------:|--------|
-| V2.1.1 | Verify that the application build and deployment processes are automated using CI/CD pipelines with integrity-protected build environments, producing reproducible artifacts. | 1 | TASVS |
-| V2.1.2 | Verify that the application and all dependencies can be re-deployed from automated scripts or restored from backups within a documented recovery timeframe. | 2 | TASVS |
-| V2.1.3 | Verify that production builds exclude all unnecessary features, sample code, documentation, test utilities, and development configurations. | 1 | TASVS |
-| V2.1.4 | Verify that all third-party components are sourced from pre-defined, trusted, and continuously maintained repositories with integrity verification of downloaded artifacts. | 1 | TASVS |
-| V2.1.5 | Verify that a Software Bill of Materials (SBOM) is maintained for all third-party libraries in use, including transitive dependencies, and is updated on each release. | 1 | TASVS |
-| V2.1.6 | Verify that production builds do not contain debug symbols, verbose error strings, or embedded developer credentials. | 1 | New |
-| V2.1.7 | Verify that released binaries and installers are code-signed with a valid, non-expired certificate, and that the signing key is protected by hardware (HSM or equivalent). | 2 | New |
-| V2.1.8 | Verify that the build system is protected against dependency confusion attacks by pinning dependencies with integrity hashes and using private registry priority for internal packages. | 2 | New |
+| V2.1.1 | アプリケーションのビルドおよびデプロイメントのプロセスが、完全性保護されたビルド環境を備えた CI/CD パイプラインを使用して自動化されており、再現可能なアーティファクトを生成することを検証します。 | 1 | TASVS |
+| V2.1.2 | アプリケーションおよびすべての依存関係が、自動化されたスクリプトから再デプロイできること、あるいは文書化された復旧時間枠内にバックアップから復元できることを検証します。 | 2 | TASVS |
+| V2.1.3 | 製品ビルドが、すべての不要な機能、サンプルコード、ドキュメント、テストユーティリティ、開発設定を除外していることを検証します。 | 1 | TASVS |
+| V2.1.4 | すべてのサードパーティコンポーネントが、事前定義され、信頼でき、継続的に保守されているリポジトリから取得されており、ダウンロードされたアーティファクトの完全性検証していることを検証します。 | 1 | TASVS |
+| V2.1.5 | ソフトウェア部品表 (SBOM) が、推移的依存関係を含む、使用しているすべてのサードパーティライブラリについて維持されており、リリースごとに更新されていることを検証します。 | 1 | TASVS |
+| V2.1.6 | 製品ビルドが、デバッグシンボル、詳細なエラー文字列、開発者クレデンシャルの埋め込みを含まないこと検証します。 | 1 | New |
+| V2.1.7 | リリースされるバイナリおよびインストーラが適切で有効期間内にある証明書を用いてコード署名されていること、および、署名鍵がハードウェア (HSM または同等のもの) によって保護されていることを検証します。 | 2 | New |
+| V2.1.8 | ビルドシステムが、依存関係を完全性ハッシュでピン留めし、内部パッケージに対してプライベートレジストリを優先的に使用することで、依存関係混乱攻撃から保護されていることを検証します。 | 2 | New |
 
 ## V2.2 環境の堅牢化 (Environment Hardening)
 
